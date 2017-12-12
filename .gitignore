@@ -24,4 +24,5 @@ express_schneiderei_sadaf.iml
 *.xml
 
 *.DS_Store
+.phpintel
 

@@ -1,16 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 
 <?php
 include('parts/head.php');
 ?>
 
 <body>
-
-	<?php
-	include('parts/header.php');
-	?>
-
 
 	<br>
 
@@ -90,11 +85,6 @@ include('parts/head.php');
     </div>
 </div>
 -->
-
-
-<?php
-include('parts/footer.php');
-?>
 
 </body>
 
