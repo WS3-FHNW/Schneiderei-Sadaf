@@ -11,6 +11,10 @@ include('parts/head.php');
 	include('parts/header.php');
 	?>
 
+	<p>Express Schneiderei Sadaf
+Pfluggässlein 13
+CH-4001 Basel</p>
+
 	<?php
 	include('parts/footer.php');
 	?>

@@ -10,9 +10,19 @@ include('parts/head.php');
 	<br>
 
 	<div class="container">
-		<p>
-
-		</p>
+		<h1>Die beste Qualität</h1>
+        <h2>Wir ändern und fertigen nach Ihren Wünschen!<h2>
+        <p>Schön, dass Sie unsere
+Homepage besuchen. Wir
+möchten Ihr Partner in allen
+Fragen der klassischen
+Herren- und neuerdings
+auch Damengarderobe sein
+und Sie dabei unterstützen,
+mit Ihrer Kleidung Ihre
+Einstellung zum Leben
+auszudrücken.
+        </p>
 	</div>
 	
 	<div class="container">
