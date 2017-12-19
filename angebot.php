@@ -20,7 +20,6 @@ include('parts/head.php');
 		</div>
 	</div>
 	
-	
 	<?php
 	include('parts/footer.php');
 	?>
