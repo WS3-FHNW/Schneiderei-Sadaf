@@ -16,3 +16,17 @@ h1 {
     font-size: 60px;
     color: blue;
 }
+
+.side-image {
+	width: 30%;
+	height: 100vh;
+	float: left;
+	background-color: yellow;
+}
+
+.content {
+	width: 70%;
+	height: 100vh;
+	float: left;
+	background-color: blue;
+}
