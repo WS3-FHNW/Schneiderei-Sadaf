@@ -1,11 +1,7 @@
-.container {
-
-}
-
 header{
 	position: fixed;
 	z-index: 99;
-	background: green;
+	background: rgba(255, 255, 255, 0);
 	height: 70px;
 	width: 100%;
 }
@@ -26,7 +22,7 @@ img {
 
 h1 {
     font-size: 60px;
-    color: blue;
+    color: rgb(71, 68, 238);
 }
 
 .wrapper{
@@ -48,7 +44,7 @@ h1 {
 	width: 30%;
 	height: 100vh;
 	float: left;
-	background-color: yellow;
+	background-color: rgba(183, 119, 235, 0.767);
 	position: absolute;
 	left: 0px;
 }
@@ -57,7 +53,7 @@ h1 {
 	width: 70%;
 	height: 100vh;
 	float: left;
-	background-color: blue;
+	background-color: rgb(255, 255, 255);
 	position: absolute;
 	left: 30%;
 }
@@ -68,5 +64,5 @@ h1 {
 	height: 100vh;
 	position: absolute;
 	left: 100%;
-	background: red;
+	background: rgba(136, 69, 223, 0.863);
 }
