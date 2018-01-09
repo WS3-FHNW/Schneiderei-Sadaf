@@ -1,0 +1,236 @@
+a{
+	text-decoration: none !important;
+}
+body{
+	padding: 0 !important;
+}
+
+
+
+.menu{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: -100vh;
+	border-left: solid 1px #5f4b8b;
+	background: white;
+	transition: all 750ms ease-in-out;
+}
+.menu-top{
+	top: 0;
+}
+.menu-wrapper{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.menu ul{
+	position: absolute;
+	list-style: none;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+}
+
+.menu ul li{
+	text-transform: uppercase;
+	font-size: 32px;
+	font-family: "Bookman Old Style";
+	line-height: initial;
+	color: #5f4b8b ;
+	margin-bottom: 24px;
+	width: 100%;
+	text-align: center;
+}
+.menu ul li:hover{
+	color: #886cc7;
+}
+
+header{
+	position: fixed;
+	z-index: 99;
+	height: 70px;
+	width: 100%;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Bookman Old Style';
+	font-weight: 300;
+	color: #5f4b8b ;
+}
+.fa-bars{
+	color: #5f4b8b !important;
+	float: right;
+	font-size: 30px;
+	margin: 16px;
+	padding: 4px;
+	background-color: rgba(255,255,255, 0.4);
+}
+h1 {
+	font-size: 60px;
+}
+h2 {
+	font-size: 42px;
+}
+
+p{
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+.button{
+	width: fit-content;
+	background: #5f4b8b;
+	color: white;
+	font-size: 20px;
+	font-family: "Bookman Old Style";
+	padding: 10px;
+	padding-left: 24px;
+	padding-right: 24px;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: background 500ms ease-out;
+}
+.button:hover{
+	background: #886cc7;
+}
+
+.home-button{
+	margin: auto;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.mover{
+	width: 100%;
+	height: 100vh;
+}
+
+
+.side-image {
+	width: 100%;
+	height: 30vh;
+	overflow: hidden;
+}
+.si-home{
+	height: 40vh;
+}
+.si-inner{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	transition: all 1000ms ease-out;
+}
+.si-inner-scaled{
+	transform: scale(1.05);
+	transform-origin: center;
+}
+
+.si-inner-overlay{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 30vh;
+	background-color: rgba(95, 75, 139, 0.7);
+}
+.si-home .si-inner-overlay{
+	height: 40vh;
+}
+.si-inner-overlay img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.content {
+	width: 100%;
+	min-height: 70vh;
+	padding-top: 150px;
+	padding-left: 100px;
+}
+.content-home{
+	height: 60vh;
+}
+
+
+/* Medium Screen */
+@media screen and (min-width: 700px) {
+	.side-image {
+		width: 100%;
+		height: 38vh;
+	}
+	.si-inner-overlay{
+		width: 100%;
+		height: 38vh;
+	}
+
+	.content {
+		width: 100%;
+		min-height: 62vh;
+	}
+}
+
+/* Large Screen */
+@media screen and (min-width: 1000px) {
+	.mover{
+		width: 100%;
+		height: 100vh;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		transition: all 750ms ease-in-out;
+	}
+
+	.mover-left{
+		left: -38%;
+	}
+
+	.menu ul{
+		top: 35%;
+	}
+
+	.side-image {
+		width: 38%;
+		height: 100vh;
+		float: left;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+	.si-home, .content-home{
+		width: 50%;
+	}
+	.si-inner-overlay{
+		width: 100%;
+		height: 100vh;
+	}
+
+	.content {
+		width: 62%;
+		height: 100vh;
+		float: left;
+		position: absolute;
+		left: 38%;
+		top: 0px;
+	}
+
+	.menu{
+		float: left;
+		width: 38%;
+		height: 100vh;
+		position: absolute;
+		left: 100%;
+		top: 0px;
+	}
+}
+
