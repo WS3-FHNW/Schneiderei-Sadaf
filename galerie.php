@@ -9,13 +9,13 @@ include('parts/head.php');
 
     <?php include('parts/header.php'); ?>
 
-    <div class="wrapper">
+    <div class="wrapper c-galerie">
         <div class="mover">
             <div class="side-image">
 
-                <div class="si-inner" style="background-image: url('gx/galerie.jpg');"></div>
+                <div class="si-inner" id="si-galerie"></div>
                 <div class="si-inner-overlay">
-                    <!--INSERT LOGO -->
+                    <a href="index.php"><img class="logo" src="gx/logo.png" alt="logo"></a>
                 </div>
 
                 <!-- custom image here -->
@@ -24,9 +24,29 @@ include('parts/head.php');
             <div class="content">
 
                 <h2>Galerie</h2>
-                <p>lorem ipsum</p>
-                <!-- custom content here -->
 
+                <div class="gallery">
+                    <div class="record" id="rec-sommer">
+                        <div class="record-inner">
+                            <h3>Sommer</h3>
+                        </div>
+                    </div>
+                    <div class="record" id="rec-business">
+                        <div class="record-inner">
+                            <h3>Business</h3>
+                        </div>
+                    </div>
+                    <div class="record" id="rec-elegant">
+                        <div class="record-inner">
+                            <h3>Elegant</h3>
+                        </div>
+                    </div>
+                    <div class="record" id="rec-hochzeit">
+                        <div class="record-inner">
+                            <h3>Hochzeit</h3>
+                        </div>
+                    </div>
+                </div>
 
             </div>
             <div class="menu"><?php include('parts/menu.php'); ?></div>

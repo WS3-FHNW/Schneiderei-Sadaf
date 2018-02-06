@@ -14,9 +14,11 @@ $(document).ready(function(){
 
 		if($(window).width() >= 1000){
 
-			$(".mover").toggleClass("mover-left");
+            $(".mover").toggleClass("mover-left");
+            $(".menu").toggleClass("menu-left");
+            $(".side-image").toggleClass("mover-left");
 
-		}else{
+        }else{
                 $(".menu").toggleClass("menu-top");
 
 		}

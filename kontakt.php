@@ -13,9 +13,9 @@ include('parts/head.php');
     <div class="mover">
         <div class="side-image">
 
-            <div class="si-inner" style="background-image: url('gx/angebot.jpg');"></div>
+            <div class="si-inner" id="si-kontakt"></div>
             <div class="si-inner-overlay">
-                <!--INSERT LOGO -->
+                <a href="index.php"><img class="logo" src="gx/logo.png" alt="logo"></a>
             </div>
 
             <!-- custom image here -->
@@ -24,7 +24,14 @@ include('parts/head.php');
         <div class="content">
 
             <h2>Kontakt</h2>
-            <p>lorem ipsum</p>
+            <p>Express Schneiderei Sadaf<br>
+                Pfluggässlein 13<br>
+                CH-4001 Basel<br><br>
+
+                Tel.:		061 261 19 62<br>
+                Mobile:	078 874 44 24<br>
+                <a href="mailto:info@sadaf.ch">Email:	info@sadaf.ch</a><br>
+            </p>
             <!-- custom content here -->
 
 
